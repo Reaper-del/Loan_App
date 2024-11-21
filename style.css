@@ -1,0 +1,103 @@
+/* Reset */
+body, h1, p, ul, li, form, input, button, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background: #004d99;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+  }
+  
+  .nav ul li {
+    margin-left: 2rem;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: #e6f7ff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero .btn {
+    background: #004d99;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about, .services, .contact {
+    padding: 2rem 0;
+  }
+  
+  
+  label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #004d99;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
